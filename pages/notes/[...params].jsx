@@ -6,7 +6,7 @@ function Page() {
     const router = useRouter()
     const { params } = router.query
 
-    const notes = params.join(', ')
+    const notes = params?.join(', ') || 'hello world'
 
     return (
         <section>
