@@ -1,0 +1,9 @@
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: npm install
+        uses: actions/setup-node@v1
+      - run: npm install
+      - name: git checkout
+        uses: actions/checkout@v2
