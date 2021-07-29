@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bzentreprise.be
+
+# Sitemaps
+Sitemap: https://bzentreprise.be/sitemap.xml
