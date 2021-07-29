@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start"
+    "start": "next start",
+    "posts": "node ./scripts/posts.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "image-size": "^1.0.0",
+    "mime-types": "^2.1.32",
     "next": "10.0.6",
     "next-sitemap": "^1.6.140",
+    "node-html-parser": "^4.1.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "rss-parser": "^3.12.0",
+    "slugify": "^1.6.0"
   }
 }

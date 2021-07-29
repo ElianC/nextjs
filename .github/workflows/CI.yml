@@ -15,6 +15,7 @@ jobs:
           node-version: '14'
           cache: 'yarn'
       - run: yarn install
+      - run: yarn posts
       - run: yarn build
       - run: yarn postbuild
       - name: commit changes
