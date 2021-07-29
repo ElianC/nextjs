@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: git checkout
         uses: actions/checkout@v2
-        node-version: '14'
-        cache: 'yarn'
       - name: yarn install
         uses: actions/setup-node@v2
+        node-version: '14'
+        cache: 'yarn'
       - run: yarn install
       - run: yarn build
       - run: yarn postbuild
